@@ -19,5 +19,8 @@ describe('analyzeMessage', () => {
     test('Should print "Message is callable" for callable inputs!', () => {
         analyzeMessage({ value: () => console.log('ok') });
         expect(spy).toHaveBeenCalledWith('Message is callable');
+
+        analyzeMessage({ value: {} });
+        expect(spy).toHaveBeenCalledWith('Message is callable');
     });
 })
