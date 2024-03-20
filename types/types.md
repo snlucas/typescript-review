@@ -1,5 +1,5 @@
 1. **Union Types**:
-   - Write a function called `printId` that takes a parameter `id` which can be either a number or a string. If the `id` is a number, it should log "Your ID is: {id}". If the `id` is a string, it should log "Your ID is: {id}".
+   - Write a function called `printId` that takes a parameter `id` which can be either a number or a string. If the `id` is a number, it should log "LOG ID: {id}". If the `id` is a string, it should log "Your ID is: {id}".
    - Test the function with various types of input values to ensure it works correctly.
 
 2. **Type Aliases**:
